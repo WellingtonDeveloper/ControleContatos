@@ -4,7 +4,7 @@
 
 <div class="text-center"></div>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary">Adicionar Novo contato</a>
+        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar novo contato</a>
     </div>
 <br/>
 <h1 class="display-4">Listagem de Contatos</h1>
@@ -27,8 +27,8 @@
             <td>11 9999999999</td>
             <td>
                 <div>
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Apagar</a>
+                    <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger"asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                 </div>
             </td>
         </tr>
@@ -39,8 +39,8 @@
             <td>11 9999999999</td>
             <td>
                 <div>
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Apagar</a>
+                    <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger"asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                 </div>
             </td>
         </tr>
@@ -51,8 +51,8 @@
             <td>11 9999999999</td>
             <td>
                 <div>
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Apagar</a>
+                    <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger"asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                 </div>
             </td>
         </tr>
